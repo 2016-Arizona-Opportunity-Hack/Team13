@@ -1,0 +1,19 @@
+// Color Scheme
+// Red #bd2229
+// Yellow #fcb110
+// Blue #16a99d
+// White # ffffff
+
+body {
+	background: url(https://hd.unsplash.com/photo-1439459615612-2f585873ca7a);
+	background-size: cover;
+	background-position: center;
+}
+#content {
+	text-align: center;
+	padding-top: 25%
+}
+
+.navbar-brand {
+	padding: 0;
+}
