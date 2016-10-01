@@ -1,4 +1,5 @@
 # Team13
+Nik Uzalac, Michael Rojas, Baily West, Bob Chen</br>
 -Recreate website for Si Se Puede Foundation</br>
 -Revamp UI</br>
 -Embed Google Forms</br>
