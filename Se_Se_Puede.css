@@ -1,27 +1,36 @@
-<<<<<<< HEAD
-// Color Scheme
-// Red #bd2229
-// Yellow #fcb110
-// Blue #16a99d
-// White # ffffff
+/* =======
+Color Scheme
+Red    #BD2229
+Yellow #FCB110
+Blue   #16A99D
+White  #FFFFFF */
 
+html {
+	height: 100%;
+}
 body {
-	background: url(https://hd.unsplash.com/photo-1439459615612-2f585873ca7a);
+	background-image: url(https://hd.unsplash.com/uploads/1413142095961484763cf/d141726c);
 	background-size: cover;
 	background-position: center;
+	color: white;
 }
+
 #content {
 	text-align: center;
-	padding-top: 25%
+	padding-top: 20%
 }
 
 .navbar-brand {
 	padding: 0;
 }
-=======
-// Color Scheme
-// Red    #BD2229
-// Yellow #FCB110
-// Blue   #16A99D
-// White  #FFFFFF
->>>>>>> 67b8829fc356d844cfde4515e3a3d235dfb3cbf1
+
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+}
+
+hr {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0, 0, 0, 0,2);
+}
