@@ -46,6 +46,13 @@ hr {
 
 #copy {
 	text-align: right;
+	font-size: 12px;
+	background-color: #D3D2CC;
+	margin: 0;
+}
+
+#copy p {
+	margin-bottom: 0;
 }
 
 .hr {
@@ -76,3 +83,9 @@ hr {
     color: #76726D;
     padding: 10px;
 }
+
+a:link, a:visited, a:hover, a:active {
+	color: #76726D;
+	text-decoration: none;
+}
+
