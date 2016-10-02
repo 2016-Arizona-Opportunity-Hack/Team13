@@ -1,3 +1,15 @@
-h1 {
+h1{
     margin: 3%;
+}
+p{
+	margin: 2%;
+}
+h3{
+	margin: 5%;
+}
+h2{
+	text-align: center;
+}
+.picslist{
+	align-content: center;
 }
