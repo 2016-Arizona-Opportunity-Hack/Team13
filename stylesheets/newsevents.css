@@ -1,0 +1,13 @@
+.row {
+    background-color: #ff0000;
+}
+.newslist, .eventlist {
+    margin: 5%;
+    padding: 1% 5%;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+ul li {
+    font-size: 20px;
+}
