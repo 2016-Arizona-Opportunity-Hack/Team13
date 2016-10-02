@@ -17,6 +17,13 @@ h1 {
     padding-top: 7%;
 }
 
+.row.formitem {
+    margin: 0;
+    color: #ffffff;
+    height: 50%;
+    padding-top: 7%;
+}
+
 
 .row.roboticsitem.legos {
     background: url(https://images.unsplash.com/photo-1473662711507-13345f9d447c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=b806d4d475961fe176c42459d2c946dc);
@@ -36,7 +43,18 @@ h1 {
 	background-position: center;
 }
 
-.row.roboticsitem:hover {
+.row.formitem.seaperch {
+    background: url(https://hd.unsplash.com/photo-1441829266145-6d4bfbd38eb4);
+	background-size: cover;
+	background-position: center;
+}
+.row.formitem.enrollment {
+    background: url(https://hd.unsplash.com/photo-1465143192652-61c44e8449bd);
+	background-size: cover;
+	background-position: center;
+}
+
+.row.roboticsitem:hover, .row.formitem:hover {
     opacity: .5;
     -webkit-filter: grayscale(100%);
     cursor: pointer;
