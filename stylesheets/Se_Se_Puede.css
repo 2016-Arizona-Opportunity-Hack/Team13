@@ -9,20 +9,24 @@ html {
 	height: 100%;
 }
 
-body {
+.landing .col-xs-12 {
+    padding: 0;
+}
+
+#content {
 	background: url(https://hd.unsplash.com/uploads/1413142095961484763cf/d141726c);
 	background-size: cover;
 	background-position: center;
 	color: white;
-}
-
-#content {
 	text-align: center;
-	padding-top: 20%;
+	padding: 25% 0;
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 				 0px 8px 13px rgba(0,0,0,0.1),
 				 0px 18px 23px rgba(0,0,0,0.4);
+}
 
+.navbar-default {
+    margin: 0;
 }
 
 .navbar-brand {
@@ -39,3 +43,49 @@ hr {
 	border-top: 1px solid #f8f8f8;
 	border-bottom: 1px solid rgba(0, 0, 0, 0,2);
 }
+
+#copy {
+	text-align: right;
+	font-size: 12px;
+	background-color: #D3D2CC;
+	margin: 0;
+}
+
+#copy p {
+	margin-bottom: 0;
+}
+
+.hr {
+	background-position: center;
+	width: 1200px;
+}
+.programs {
+    background-color: #EEEEEB;
+}
+
+.programs .col-sm-3 {
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.programs .col-sm-3 img {
+    width: 75%;
+    height: 75%;
+    margin: 5% auto;
+}
+
+.programs .col-sm-3 button {
+    margin: 10% 0;
+}
+
+.footer {
+    background-color: #D3D2CC;
+    color: #76726D;
+    padding: 10px;
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: #76726D;
+	text-decoration: none;
+}
+
