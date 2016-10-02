@@ -1,0 +1,32 @@
+.row.roboticsitem {
+    margin: 5% 5%;
+    color: #ffffff;
+    height: 20%;
+    text-align: center;
+    padding-top: 4%;
+}
+
+
+.row.roboticsitem.legos {
+    background: url(https://images.unsplash.com/photo-1473662711507-13345f9d447c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=b806d4d475961fe176c42459d2c946dc);
+	background-size: cover;
+	background-position: center;
+}
+
+.row.roboticsitem.seaperch {
+    background: url(https://hd.unsplash.com/photo-1441829266145-6d4bfbd38eb4);
+	background-size: cover;
+	background-position: center;
+}
+
+.row.roboticsitem.binarybots {
+    background: url(https://hd.unsplash.com/photo-1446102892025-3900145fd2a7);
+	background-size: cover;
+	background-position: center;
+}
+
+.row.roboticsitem:hover {
+    opacity: .5;
+    -webkit-filter: grayscale(100%);
+    cursor: pointer;
+}
