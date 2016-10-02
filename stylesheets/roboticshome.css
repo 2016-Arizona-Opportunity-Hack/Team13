@@ -2,6 +2,9 @@
     padding: 0;
 }
 
+.hr {
+    
+}
 h1 {
     margin: 3%;
 }
@@ -37,4 +40,8 @@ h1 {
     opacity: .5;
     -webkit-filter: grayscale(100%);
     cursor: pointer;
+}
+
+.row, #copy{
+    background-color: #ffffcc;
 }
