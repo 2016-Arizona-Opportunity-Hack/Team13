@@ -1,6 +1,7 @@
 .row {
-    background-color: #ff0000;
+    background-color: #16A99D;
 }
+
 .newslist, .eventlist {
     margin: 5%;
     padding: 1% 5%;
@@ -11,3 +12,14 @@
 ul li {
     font-size: 20px;
 }
+
+h1 {
+    margin-left: 5%;
+}
+
+.col-sm-6 img {
+    border-radius: 30px;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
