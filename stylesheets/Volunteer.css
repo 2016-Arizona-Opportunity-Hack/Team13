@@ -1,8 +1,4 @@
 iframe {
-
+    width: 100%;
+    min-height: 1800px;
 }
-
-.words {
-	background-color: #EDE7F6;
-}
-
